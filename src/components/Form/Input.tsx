@@ -31,13 +31,13 @@ const Input = ({
   const inputChangeHandler = (e: React.ChangeEvent<HTMLInputElement>) => {
     const currentValue = e.target.value;
 
-    setCurrentValue(newValue);
+    setCurrentValue(currentValue);
 
     setData((prevCardNumbers) =>
       new Map(prevCardNumbers).set(index, currentValue)
     );
 
-    if (!validationRule(newValue)) {
+    if (!validationRule(currentValue)) {
       setErrorMessage(errorMessageText);
       setIsValidInput(false);
       setAllInputValid(false);
