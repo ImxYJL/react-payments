@@ -33,10 +33,6 @@ const ExpirationDateForm = ({
 
   const updateInputValidity = (index: string, isValid: boolean) => {
     setInputValidities((prevValidities) => ({
-      ...prevValidities,
-      [index]: isValid,
-    }));
-  };
 
   useEffect(() => {
     const allValid = Object.values(inputValidities).every((isValid) => isValid);
