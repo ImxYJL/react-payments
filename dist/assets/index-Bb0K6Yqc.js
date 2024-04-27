@@ -218,4 +218,4 @@ Error generating stack: `+o.message+`
   font-weight: bold;
   border: none;
   cursor: pointer;
-`,Ev=()=>P.jsx(I0,{children:P.jsxs(S0,{children:[P.jsx(au,{path:"/",element:P.jsx(vv,{})}),P.jsx(au,{path:"/registered",element:P.jsx(Sv,{})})]})});function Pv(){return P.jsx(P.Fragment,{children:P.jsx(Ev,{})})}mi.createRoot(document.getElementById("root")).render(P.jsx(en.StrictMode,{children:P.jsx(Pv,{})}));
+`,Ev=()=>P.jsx(I0,{basename:"/react-payments/dist/",children:P.jsxs(S0,{children:[P.jsx(au,{path:"/",element:P.jsx(vv,{})}),P.jsx(au,{path:"/registered",element:P.jsx(Sv,{})})]})});function Pv(){return P.jsx(P.Fragment,{children:P.jsx(Ev,{})})}mi.createRoot(document.getElementById("root")).render(P.jsx(en.StrictMode,{children:P.jsx(Pv,{})}));

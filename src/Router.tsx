@@ -4,7 +4,7 @@ import RegisteredPage from "./components/RegisteredPage";
 
 const Router = () => {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/react-payments/dist/">
       <Routes>
         <Route path="/" element={<PaymentApp />} />
         <Route path="/registered" element={<RegisteredPage />}></Route>
