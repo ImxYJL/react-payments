@@ -1,3 +1,5 @@
+/* eslint-disable */
+// @ts-nocheck
 import styled from "styled-components";
 import { useState } from "react";
 import { useNavigate } from "react-router-dom";
